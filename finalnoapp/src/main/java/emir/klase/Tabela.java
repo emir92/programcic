@@ -127,7 +127,7 @@ public class Tabela {
     
     
     public void updateTabele(Tabela t){
-        updateTabela(t.kazne, t.pobjede, t.nerjesene, t.izgubljene, t.datiGolovi, t.primljeniGolovi);
+        updateTabela( t.pobjede, t.nerjesene, t.izgubljene, t.datiGolovi, t.primljeniGolovi,t.kazne);
     }
 
     @Override

@@ -3,14 +3,14 @@
   "imeLige" : "Premijer Liga",
   "sklubovi" : [ {
     "idKluba" : 1,
-    "brojUtakmica" : 0,
-    "pobjede" : 0,
-    "nerjesene" : 0,
-    "izgubljene" : 0,
-    "datiGolovi" : 0,
-    "primljeniGolovi" : 0,
-    "kazne" : 0,
-    "bodovi" : 0
+    "brojUtakmica" : 9,
+    "pobjede" : 6,
+    "nerjesene" : 1,
+    "izgubljene" : 2,
+    "datiGolovi" : 3,
+    "primljeniGolovi" : 4,
+    "kazne" : 5,
+    "bodovi" : 14
   }, {
     "idKluba" : 2,
     "brojUtakmica" : 0,

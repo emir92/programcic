@@ -99,19 +99,7 @@ public class ServisLigaImp implements ServisLiga{
             
             liga.setIdLige(brojacLige.incrementAndGet());
             lige.add(liga);
-            ObjectWriter ow= new ObjectMapper().writer().withDefaultPrettyPrinter();
-            String json;
-            try (FileWriter file = new FileWriter("lige.json")) {
-                file.write("[");
-                for(int i=0; i<lige.size(); i++){
-
-                    file.write(ow.writeValueAsString(lige.get(i)));
-                    if(i<lige.size()-1) file.write(",");
-                }
-                file.write("]");
-            } catch (IOException ex) {
-                Logger.getLogger(ServisLigaImp.class.getName()).log(Level.SEVERE, null, ex);
-            }
+            spsasi();
         }
     }
     
@@ -129,44 +117,30 @@ public class ServisLigaImp implements ServisLiga{
     
     public void updateLiga(Liga liga){
         int indeks= lige.indexOf(liga);
-        for(int i=0; i<lige.size();i++){
-            if (liga.getIdLige()==lige.get(i).getIdLige()) indeks=i;
-        }
+        
         
         List<Tabela> kluboviIzLige=new ArrayList<Tabela>();
         List<Tabela> kluboviSezona=new ArrayList<Tabela>();
         kluboviIzLige =lige.get(indeks).getSklubovi();
         kluboviSezona= liga.getSklubovi();
         
-        Map<Long, Tabela> h= new HashMap<>();
-        
-        for(Tabela t:kluboviIzLige){
-            h.put(t.getIdKluba(), t);
-        }
         for(Tabela t:kluboviSezona){
-            Tabela get = h.get(t.getIdKluba());
-            if(get != null) {
-                get.updateTabele(get);
-            } else {
-                 h.put(t.getIdKluba(), t);
+            if(kluboviIzLige.contains(t))
+            {
+                int in= kluboviIzLige.indexOf(t);
+                kluboviIzLige.get(in).updateTabele(t);
+            }
+            else
+            {
+                kluboviIzLige.add(t);
             }
         }
         
-        kluboviIzLige.clear();
-        // zapis u file
-        for(Tabela ha : h.values()) {
-            
-            kluboviIzLige.add(ha);
-        }
-        
-//        for(Tabela klub:kluboviSezona){
-//            if(kluboviIzLige.contains(klub)){
-//                int in= kluboviIzLige.indexOf(klub);
-//                kluboviIzLige.get(in).updateTabele(klub);
-//            }
-//            else kluboviIzLige.add(klub);
-//        }
         lige.get(indeks).setSklubovi(kluboviIzLige);
+        spsasi();
+    }
+    
+    private void spsasi(){
         ObjectWriter ow= new ObjectMapper().writer().withDefaultPrettyPrinter();
             String json;
             try (FileWriter file = new FileWriter("lige.json")) {

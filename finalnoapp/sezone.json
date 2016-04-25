@@ -4,14 +4,14 @@
   "idLige" : 1,
   "klubovi" : [ {
     "idKluba" : 1,
-    "brojUtakmica" : 0,
-    "pobjede" : 0,
-    "nerjesene" : 0,
-    "izgubljene" : 0,
-    "datiGolovi" : 0,
-    "primljeniGolovi" : 0,
-    "kazne" : 0,
-    "bodovi" : 0
+    "brojUtakmica" : 9,
+    "pobjede" : 6,
+    "nerjesene" : 1,
+    "izgubljene" : 2,
+    "datiGolovi" : 3,
+    "primljeniGolovi" : 4,
+    "kazne" : 5,
+    "bodovi" : 14
   }, {
     "idKluba" : 2,
     "brojUtakmica" : 0,
@@ -39,14 +39,14 @@
   "idLige" : 1,
   "klubovi" : [ {
     "idKluba" : 1,
-    "brojUtakmica" : 0,
-    "pobjede" : 0,
-    "nerjesene" : 0,
-    "izgubljene" : 0,
-    "datiGolovi" : 0,
-    "primljeniGolovi" : 0,
-    "kazne" : 0,
-    "bodovi" : 0
+    "brojUtakmica" : 6,
+    "pobjede" : 1,
+    "nerjesene" : 2,
+    "izgubljene" : 3,
+    "datiGolovi" : 4,
+    "primljeniGolovi" : 5,
+    "kazne" : 7,
+    "bodovi" : -2
   }, {
     "idKluba" : 2,
     "brojUtakmica" : 0,
@@ -374,13 +374,13 @@
   "idLige" : 1,
   "klubovi" : [ {
     "idKluba" : 1,
-    "brojUtakmica" : 34,
-    "pobjede" : 12,
-    "nerjesene" : 10,
-    "izgubljene" : 12,
-    "datiGolovi" : 15,
-    "primljeniGolovi" : 16,
-    "kazne" : 15,
-    "bodovi" : 31
+    "brojUtakmica" : 74,
+    "pobjede" : 27,
+    "nerjesene" : 24,
+    "izgubljene" : 23,
+    "datiGolovi" : 28,
+    "primljeniGolovi" : 32,
+    "kazne" : 32,
+    "bodovi" : 73
   } ]
 }]

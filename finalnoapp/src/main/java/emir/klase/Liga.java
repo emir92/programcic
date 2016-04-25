@@ -70,13 +70,6 @@ public class Liga {
     //</editor-fold>
     
     //<editor-fold desc="Override">
-    @Override
-    public int hashCode() {
-            final int prime = 31;
-            int result = 1;
-            result = prime * result + (int) (idLige ^ (idLige >>> 32));
-            return result;
-    }
     
     
     @Override
@@ -85,12 +78,25 @@ public class Liga {
                     return true;
             if (obj == null)
                     return false;
-            if (!(obj instanceof Klub))
+            if (!(obj instanceof Liga))
                     return false;
             Liga other = (Liga) obj;
             if (idLige != other.idLige)
                     return false;
             return true;
     }
+
+    @Override
+    public int hashCode() {
+            final int prime = 31;
+            int result = 1;
+            result = prime * result + (int) (idLige ^ (idLige >>> 32));
+            return result;
+    }
+   
     //</editor-fold>
+
+    
+
+    
 }
