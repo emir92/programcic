@@ -1,0 +1,49 @@
+[{
+  "idLige" : 1,
+  "imeLige" : "Premijer Liga",
+  "sklubovi" : [ {
+    "idKluba" : 1,
+    "brojUtakmica" : 0,
+    "pobjede" : 0,
+    "nerjesene" : 0,
+    "izgubljene" : 0,
+    "datiGolovi" : 0,
+    "primljeniGolovi" : 0,
+    "kazne" : 0,
+    "bodovi" : 0
+  }, {
+    "idKluba" : 2,
+    "brojUtakmica" : 0,
+    "pobjede" : 0,
+    "nerjesene" : 0,
+    "izgubljene" : 0,
+    "datiGolovi" : 0,
+    "primljeniGolovi" : 0,
+    "kazne" : 0,
+    "bodovi" : 0
+  }, {
+    "idKluba" : 3,
+    "brojUtakmica" : 0,
+    "pobjede" : 0,
+    "nerjesene" : 0,
+    "izgubljene" : 0,
+    "datiGolovi" : 0,
+    "primljeniGolovi" : 0,
+    "kazne" : 0,
+    "bodovi" : 0
+  }, {
+    "idKluba" : 4,
+    "brojUtakmica" : 0,
+    "pobjede" : 0,
+    "nerjesene" : 0,
+    "izgubljene" : 0,
+    "datiGolovi" : 0,
+    "primljeniGolovi" : 0,
+    "kazne" : 0,
+    "bodovi" : 0
+  } ]
+},{
+  "idLige" : 2,
+  "imeLige" : "Prva Liga Federacije BiH",
+  "sklubovi" : [ ]
+}]

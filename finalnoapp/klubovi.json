@@ -1,0 +1,109 @@
+[{
+  "idKluba" : 1,
+  "imeKluba" : "FK Zeljeznicar",
+  "idGrad" : 1,
+  "imeStadiona" : "Grbavica",
+  "imeNavijaca" : "Maniaci"
+},{
+  "idKluba" : 2,
+  "imeKluba" : "FK Sloboda",
+  "idGrad" : 7,
+  "imeStadiona" : "Tusanj",
+  "imeNavijaca" : "Fukare"
+},{
+  "idKluba" : 3,
+  "imeKluba" : "FK Sarajevo",
+  "idGrad" : 1,
+  "imeStadiona" : "Asim Ferhatovic Hase",
+  "imeNavijaca" : "Horde Zla"
+},{
+  "idKluba" : 4,
+  "imeKluba" : "HSK Zrinski",
+  "idGrad" : 5,
+  "imeStadiona" : "Pod Bijelim Brijegom",
+  "imeNavijaca" : "Ultras"
+},{
+  "idKluba" : 5,
+  "imeKluba" : "NK Siroki Brijeg",
+  "idGrad" : 11,
+  "imeStadiona" : "Pecara",
+  "imeNavijaca" : "Skripari"
+},{
+  "idKluba" : 6,
+  "imeKluba" : "FK Radnik",
+  "idGrad" : 10,
+  "imeStadiona" : "Gradski stadion Bijeljina",
+  "imeNavijaca" : ""
+},{
+  "idKluba" : 7,
+  "imeKluba" : "NK Celik",
+  "idGrad" : 4,
+  "imeStadiona" : "Bilino Polje",
+  "imeNavijaca" : "Robijasi"
+},{
+  "idKluba" : 8,
+  "imeKluba" : "FK Mladost",
+  "idGrad" : 12,
+  "imeStadiona" : "Stadion Mladost",
+  "imeNavijaca" : ""
+},{
+  "idKluba" : 9,
+  "imeKluba" : "FK Slavija",
+  "idGrad" : 13,
+  "imeStadiona" : "SRC Slavija",
+  "imeNavijaca" : ""
+},{
+  "idKluba" : 10,
+  "imeKluba" : "NK Vitet",
+  "idGrad" : 14,
+  "imeStadiona" : "",
+  "imeNavijaca" : ""
+},{
+  "idKluba" : 11,
+  "imeKluba" : "FK Olimpic",
+  "idGrad" : 1,
+  "imeStadiona" : "Otoka",
+  "imeNavijaca" : "Vukovi"
+},{
+  "idKluba" : 12,
+  "imeKluba" : "FK Borac",
+  "idGrad" : 8,
+  "imeStadiona" : "Gradski stadion",
+  "imeNavijaca" : ""
+},{
+  "idKluba" : 13,
+  "imeKluba" : "NK Travnik",
+  "idGrad" : 9,
+  "imeStadiona" : "Pirota",
+  "imeNavijaca" : ""
+},{
+  "idKluba" : 14,
+  "imeKluba" : "FK Rudar",
+  "idGrad" : 16,
+  "imeStadiona" : "",
+  "imeNavijaca" : ""
+},{
+  "idKluba" : 15,
+  "imeKluba" : "FK Drina",
+  "idGrad" : 17,
+  "imeStadiona" : "",
+  "imeNavijaca" : ""
+},{
+  "idKluba" : 16,
+  "imeKluba" : "FK Velez",
+  "idGrad" : 5,
+  "imeStadiona" : "Vrapcici",
+  "imeNavijaca" : "Red Army"
+},{
+  "idKluba" : 17,
+  "imeKluba" : "FK Radnik",
+  "idGrad" : 2,
+  "imeStadiona" : "Gradski Stadion",
+  "imeNavijaca" : ""
+},{
+  "idKluba" : 18,
+  "imeKluba" : "FK Stupcanica",
+  "idGrad" : 3,
+  "imeStadiona" : "",
+  "imeNavijaca" : ""
+}]

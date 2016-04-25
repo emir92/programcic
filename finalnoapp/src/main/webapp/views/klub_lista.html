@@ -1,0 +1,30 @@
+<ul class="nav nav-pills" role="tablist">
+  <li ><a href="#/klub">Kreiraj Klub</a></li>
+  <li class="active" > <a href="#/klub/list">Lista klubova</a></li>
+</ul>
+
+<div ng-show="authenticated">
+    <table>
+        <thead>
+            <tr>
+                <th>ID.</th>
+                <th>Ime Kluba</th>
+                <th>Grad</th>
+                <th>Stadion</th>
+                <th>Navijaci</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="u in klubovi">
+                <td><span ng-bind="u.idKluba"></span></td>
+                <td><span ng-bind="u.imeKluba"></span></td>
+                <td><span ng-bind="gradovi[u.idGrad-1].imeGrada"></span></td>
+                <td><span ng-bind="u.imeStadiona"></span></td>
+                <td><span ng-bind="u.imeNavijaca"></span></td>
+            </tr>
+        </tbody>
+    </table>    
+</div>
+<div  ng-show="!authenticated">
+	<p>Login to see your greeting</p>
+</div>

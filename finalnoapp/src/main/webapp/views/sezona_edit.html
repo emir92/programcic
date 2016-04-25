@@ -1,0 +1,60 @@
+<ul class="nav nav-pills" role="tablist">
+  <li ><a href="#/sezona">Sezona</a></li>
+  <li class="active" ><a href="#/sezona/list">Sezona Ispis</a></li>
+</ul>
+<div ng-show="authenticated">
+    <div id="izbor_sezone">
+    </br></br></br>
+    Izaberi sezonu:
+    <select name="multipleSelect" id="multipleSelect" ng-model="izborSezone">
+        <option ng-repeat="u in sezone" value="{{u.idSezone}}">{{u.imeSezone}} ( {{lige[u.idLige-1].imeLige}} )</option>
+    </select>
+    <button ng-click="ispisi(izborSezone)"> ispisi</button>
+    </br></br></br>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>K</th>
+                <th>Poz</th>    
+                <th>Ime Kluba</th>
+                <th>Br.Ut</th>
+                <th>W</th>
+                <th>D</th>
+                <th>L</th>
+                <th>DG</th>
+                <th>PG</th>
+                <th>P</th>
+            </tr>
+        </thead>  
+        <tbody>
+            <tr ng-repeat="a in izabranSezona | orderBy:'-bodovi'">
+                <th><input id='uS' ng-model="a.kazne" /></th>
+                <th>{{$index + 1}}</th>
+                <th>{{klubovi[a.idKluba-1].imeKluba}}</th>
+                <th>{{a.brojUtakmica = 1*a.pobjede+1*a.nerjesene+1*a.izgubljene}}</th>
+                <th><input id='uS' ng-model="a.pobjede" /></th>
+                <th><input id='uS' ng-model="a.nerjesene" /></th>
+                <th><input id='uS' ng-model="a.izgubljene" /></th>
+                <th><input id='uS' ng-model="a.datiGolovi" /></th>
+                <th><input id='uS' ng-model="a.primljeniGolovi" /></th>
+                <th>{{a.bodovi=3*a.pobjede+1*a.nerjesene.valueOf()-1*a.kazne}}</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th></th>    
+                <th></th>
+                <th></th>
+                <th><button ng-click="spasi()">Spasi</button></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div  ng-show="!authenticated">
+	<p>Login to see your greeting</p>
+</div>
