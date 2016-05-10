@@ -1,0 +1,109 @@
+[{
+  "idGrada" : 1,
+  "imeGrada" : "Sarajevo",
+  "opcina" : "AAA",
+  "kanton" : "KS",
+  "entitet" : "FBIH"
+},{
+  "idGrada" : 2,
+  "imeGrada" : "Hadzici",
+  "opcina" : "Hadzici",
+  "kanton" : "KS",
+  "entitet" : "FBIH"
+},{
+  "idGrada" : 3,
+  "imeGrada" : "Olovo",
+  "opcina" : "Olovo",
+  "kanton" : "ZDK",
+  "entitet" : "FBIH"
+},{
+  "idGrada" : 4,
+  "imeGrada" : "Zenica",
+  "opcina" : "AAA",
+  "kanton" : "ZDK",
+  "entitet" : "FBIH"
+},{
+  "idGrada" : 5,
+  "imeGrada" : "Mostar",
+  "opcina" : "Mostar",
+  "kanton" : "HNK",
+  "entitet" : "FBIH"
+},{
+  "idGrada" : 6,
+  "imeGrada" : "Ilijas",
+  "opcina" : "Ilijas",
+  "kanton" : "KS",
+  "entitet" : "FBIH"
+},{
+  "idGrada" : 7,
+  "imeGrada" : "Tuzla",
+  "opcina" : "AAA",
+  "kanton" : "TK",
+  "entitet" : "FBIH"
+},{
+  "idGrada" : 8,
+  "imeGrada" : "Banja Luka",
+  "opcina" : "AAA",
+  "kanton" : "AAA",
+  "entitet" : "RS"
+},{
+  "idGrada" : 9,
+  "imeGrada" : "Travnik",
+  "opcina" : "Travnik",
+  "kanton" : "PK",
+  "entitet" : "FBIH"
+},{
+  "idGrada" : 10,
+  "imeGrada" : "Bijeljina",
+  "opcina" : "AAA",
+  "kanton" : "AAA",
+  "entitet" : "RS"
+},{
+  "idGrada" : 11,
+  "imeGrada" : "Siroki Brijeg",
+  "opcina" : "Siroki Brijeg",
+  "kanton" : "ZHK",
+  "entitet" : "FBIH"
+},{
+  "idGrada" : 12,
+  "imeGrada" : "Doboj Kakanj",
+  "opcina" : "Kakanj",
+  "kanton" : "ZDK",
+  "entitet" : "FBIH"
+},{
+  "idGrada" : 13,
+  "imeGrada" : "Istocno Sarajevo",
+  "opcina" : "Istocno Sarajevo",
+  "kanton" : "AAA",
+  "entitet" : "RS"
+},{
+  "idGrada" : 14,
+  "imeGrada" : "Vitez",
+  "opcina" : "Vitez",
+  "kanton" : "SBK",
+  "entitet" : "FBIH"
+},{
+  "idGrada" : 15,
+  "imeGrada" : "Travnik",
+  "opcina" : "Travnik",
+  "kanton" : "SBK",
+  "entitet" : "FBIH"
+},{
+  "idGrada" : 16,
+  "imeGrada" : "Prijedor",
+  "opcina" : "Prijedor",
+  "kanton" : "AAA",
+  "entitet" : "RS"
+},{
+  "idGrada" : 17,
+  "imeGrada" : "Zvornik",
+  "opcina" : "Zvornik",
+  "kanton" : "AAA",
+  "entitet" : "RS"
+},{
+  "idGrada" : 18,
+  "imeGrada" : "Konjic",
+  "opcina" : "Konjic",
+  "kanton" : "HNK",
+  "entitet" : "FBIH"
+}]

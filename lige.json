@@ -1,0 +1,193 @@
+[{
+  "idLige" : 1,
+  "imeLige" : "Premijer Liga",
+  "sklubovi" : [ {
+    "idKluba" : 1,
+    "brojUtakmica" : 74,
+    "pobjede" : 58,
+    "nerjesene" : 6,
+    "izgubljene" : 10,
+    "datiGolovi" : 62,
+    "primljeniGolovi" : 17,
+    "kazne" : 19,
+    "bodovi" : 161
+  }, {
+    "idKluba" : 2,
+    "brojUtakmica" : 59,
+    "pobjede" : 26,
+    "nerjesene" : 6,
+    "izgubljene" : 27,
+    "datiGolovi" : 33,
+    "primljeniGolovi" : 30,
+    "kazne" : 0,
+    "bodovi" : 84
+  }, {
+    "idKluba" : 3,
+    "brojUtakmica" : 57,
+    "pobjede" : 38,
+    "nerjesene" : 3,
+    "izgubljene" : 16,
+    "datiGolovi" : 40,
+    "primljeniGolovi" : 20,
+    "kazne" : 1,
+    "bodovi" : 116
+  }, {
+    "idKluba" : 4,
+    "brojUtakmica" : 45,
+    "pobjede" : 18,
+    "nerjesene" : 5,
+    "izgubljene" : 22,
+    "datiGolovi" : 23,
+    "primljeniGolovi" : 27,
+    "kazne" : 0,
+    "bodovi" : 59
+  }, {
+    "idKluba" : 5,
+    "brojUtakmica" : 45,
+    "pobjede" : 30,
+    "nerjesene" : 3,
+    "izgubljene" : 12,
+    "datiGolovi" : 33,
+    "primljeniGolovi" : 15,
+    "kazne" : 0,
+    "bodovi" : 93
+  }, {
+    "idKluba" : 6,
+    "brojUtakmica" : 45,
+    "pobjede" : 15,
+    "nerjesene" : 5,
+    "izgubljene" : 25,
+    "datiGolovi" : 20,
+    "primljeniGolovi" : 30,
+    "kazne" : 0,
+    "bodovi" : 50
+  }, {
+    "idKluba" : 7,
+    "brojUtakmica" : 45,
+    "pobjede" : 27,
+    "nerjesene" : 3,
+    "izgubljene" : 15,
+    "datiGolovi" : 30,
+    "primljeniGolovi" : 18,
+    "kazne" : 0,
+    "bodovi" : 84
+  }, {
+    "idKluba" : 8,
+    "brojUtakmica" : 45,
+    "pobjede" : 24,
+    "nerjesene" : 4,
+    "izgubljene" : 17,
+    "datiGolovi" : 28,
+    "primljeniGolovi" : 21,
+    "kazne" : 0,
+    "bodovi" : 76
+  }, {
+    "idKluba" : 9,
+    "brojUtakmica" : 45,
+    "pobjede" : 45,
+    "nerjesene" : 0,
+    "izgubljene" : 0,
+    "datiGolovi" : 45,
+    "primljeniGolovi" : 0,
+    "kazne" : 0,
+    "bodovi" : 135
+  }, {
+    "idKluba" : 10,
+    "brojUtakmica" : 45,
+    "pobjede" : 39,
+    "nerjesene" : 1,
+    "izgubljene" : 5,
+    "datiGolovi" : 40,
+    "primljeniGolovi" : 6,
+    "kazne" : 0,
+    "bodovi" : 118
+  }, {
+    "idKluba" : 11,
+    "brojUtakmica" : 45,
+    "pobjede" : 33,
+    "nerjesene" : 2,
+    "izgubljene" : 10,
+    "datiGolovi" : 35,
+    "primljeniGolovi" : 12,
+    "kazne" : 0,
+    "bodovi" : 101
+  }, {
+    "idKluba" : 12,
+    "brojUtakmica" : 45,
+    "pobjede" : 12,
+    "nerjesene" : 6,
+    "izgubljene" : 27,
+    "datiGolovi" : 18,
+    "primljeniGolovi" : 33,
+    "kazne" : 0,
+    "bodovi" : 42
+  }, {
+    "idKluba" : 13,
+    "brojUtakmica" : 45,
+    "pobjede" : 9,
+    "nerjesene" : 6,
+    "izgubljene" : 30,
+    "datiGolovi" : 15,
+    "primljeniGolovi" : 36,
+    "kazne" : 0,
+    "bodovi" : 33
+  }, {
+    "idKluba" : 14,
+    "brojUtakmica" : 45,
+    "pobjede" : 6,
+    "nerjesene" : 7,
+    "izgubljene" : 32,
+    "datiGolovi" : 13,
+    "primljeniGolovi" : 39,
+    "kazne" : 0,
+    "bodovi" : 25
+  }, {
+    "idKluba" : 15,
+    "brojUtakmica" : 15,
+    "pobjede" : 1,
+    "nerjesene" : 7,
+    "izgubljene" : 7,
+    "datiGolovi" : 8,
+    "primljeniGolovi" : 14,
+    "kazne" : 0,
+    "bodovi" : 10
+  }, {
+    "idKluba" : 16,
+    "brojUtakmica" : 15,
+    "pobjede" : 0,
+    "nerjesene" : 8,
+    "izgubljene" : 7,
+    "datiGolovi" : 8,
+    "primljeniGolovi" : 15,
+    "kazne" : 0,
+    "bodovi" : 8
+  }, {
+    "idKluba" : 17,
+    "brojUtakmica" : 30,
+    "pobjede" : 2,
+    "nerjesene" : 0,
+    "izgubljene" : 28,
+    "datiGolovi" : 2,
+    "primljeniGolovi" : 28,
+    "kazne" : 0,
+    "bodovi" : 6
+  }, {
+    "idKluba" : 18,
+    "brojUtakmica" : 30,
+    "pobjede" : 0,
+    "nerjesene" : 0,
+    "izgubljene" : 30,
+    "datiGolovi" : 0,
+    "primljeniGolovi" : 30,
+    "kazne" : 0,
+    "bodovi" : 0
+  } ]
+},{
+  "idLige" : 2,
+  "imeLige" : "Prva Liga Federacije BiH",
+  "sklubovi" : [ ]
+},{
+  "idLige" : 3,
+  "imeLige" : "Prva Liga RS",
+  "sklubovi" : [ ]
+}]
