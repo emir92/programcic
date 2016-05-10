@@ -1,0 +1,29 @@
+<ul class="nav nav-pills" role="tablist">
+  <li ><a href="#/grad">Kreiraj Grad</a></li>
+  <li class="active" ><a href="#/grad/list">Lista gradova</a></li>
+</ul>
+<div ng-show="authenticated">
+    <table>
+        <thead>
+            <tr>
+                <th>ID.</th>
+                <th>Mjesto</th>
+                <th>Opcina</th>
+                <th>Kanton</th>
+                <th>Entitet</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="u in gradovi | orderBy:'imeGrada'">
+                <td><span ng-bind="u.idGrada"></span></td>
+                <td><span ng-bind="u.imeGrada"></span></td>
+                <td><span ng-bind="u.opcina "></span></td>
+                <td><span ng-bind="u.kanton"></span></td>
+                <td><span ng-bind="u.entitet"></span></td>
+            </tr>
+        </tbody>
+    </table>    
+</div>
+<div  ng-show="!authenticated">
+	<p>Login to see your greeting</p>
+</div>

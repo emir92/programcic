@@ -1,0 +1,15 @@
+<ul class="nav nav-pills" role="tablist">
+  <li class="active" ><a href="#/liga">Liga</a></li>
+  <li ><a href="#/liga/list">Liga Ispis</a></li>
+</ul>
+
+<div ng-show="authenticated">
+    <form  name="myForm">
+            <label> Unesi ime Lige </label> </br>
+            <input type="text" ng-model="liga.imeLige" required/> </br>  
+            <button ng-disabled="myForm.$invalid" ng-click="KrerirajLigu()"> Kreiraj Ligu </button>
+    </form>
+</div>
+<div  ng-show="!authenticated">
+	<p>Login to see your greeting</p>
+</div>

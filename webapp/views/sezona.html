@@ -1,0 +1,56 @@
+<ul class="nav nav-pills" role="tablist">
+  <li class="active" ><a href="#/sezona">Sezona</a></li>
+  <li ><a href="#/sezona/list">Sezona Ispis</a></li>
+</ul>
+
+
+    
+
+<div ng-show="authenticated">
+    <form name="myForm">
+    <table>
+        <tr>
+            <td>Unesi Sezonu:</td>
+
+            <td><input id="sezonain" type="text" ng-model="sezona.imeSezone" required/> </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Izaberi Sezonu</td>
+
+            <td>
+                <select name="singleSelect" id="singleSelect" ng-model="idLiga" required>
+                    <option ng-repeat="u in lige" value="{{u.idLige}}">{{u.imeLige}}</option>
+                </select>            
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <select name="multipleSelect" id="multipleSelect" ng-model="list" multiple>
+                    <option ng-repeat="u in klubovi" value="{{u.idKluba}}">{{u.imeKluba}}({{gradovi[u.idGrad-1].imeGrada}})</option>
+                </select>
+            </td>
+            <td>
+                <button ng-click="prebacidesno()"> >> </button> </br> </br>
+                <button ng-click="izbrisi()"> << </button>
+            </td>
+
+            <td>
+                <select name="multipleSelect" id="multipleSelect" ng-model="lista2" multiple>
+                    <option ng-repeat="u in izabraniKlubovi" value="{{u.idKluba}}">{{u.imeKluba}}({{gradovi[u.idGrad-1].imeGrada}})</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button ng-disabled="myForm.$invalid" ng-click="KreirajSezonu()">Kreiraj Sezonu</button></td>
+            <td></td>
+
+        </tr>
+    </table>
+    </form>
+</div>
+<div  ng-show="!authenticated">
+	<p>Login to see your greeting</p>
+</div>

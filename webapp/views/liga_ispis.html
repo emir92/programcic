@@ -1,0 +1,59 @@
+<ul class="nav nav-pills" role="tablist">
+  <li ><a href="#/liga">Liga</a></li>
+  <li class="active" ><a href="#/liga/list">Liga Ispis</a></li>
+</ul>
+
+<div ng-show="authenticated">
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID.</th>
+                    <th>Ime Lige</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="u in lige">
+                    <td><span ng-bind="u.idLige"></span></td>
+                    <td><span ng-bind="u.imeLige"></span></td>
+                    <td><button ng-click="ispisiLigu(u.idLige)">Ispisi</button></td>
+                </tr>
+            </tbody>
+        </table>    
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>K</th>
+                <th>Poz</th>    
+                <th>Ime Kluba</th>
+                <th>Br.Ut</th>
+                <th>W</th>
+                <th>D</th>
+                <th>L</th>
+                <th>DG</th>
+                <th>PG</th>
+                <th>P</th>
+            </tr>
+        </thead>  
+        <tbody>
+            <tr ng-repeat="a in izabranLiga | orderBy:'-bodovi'">
+                <th>{{a.kazne}}</th>
+                <th>{{$index + 1}}</th>
+                <th>{{klubovi[a.idKluba-1].imeKluba}}</th>
+                <th>{{a.brojUtakmica}}</th>
+                <th>{{a.pobjede}} </th>
+                <th>{{a.nerjesene}} </th>
+                <th>{{a.izgubljene}} </th>
+                <th>{{a.datiGolovi}} </th>
+                <th>{{a.primljeniGolovi}}</th>
+                <th>{{a.bodovi}}</th>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div  ng-show="!authenticated">
+	<p>Login to see your greeting</p>
+</div>

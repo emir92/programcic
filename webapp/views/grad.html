@@ -1,0 +1,45 @@
+<ul class="nav nav-pills" role="tablist">
+  <li class="active" ><a href="#/grad">Kreiraj Grad</a></li>
+  <li><a href="#/grad/list">Lista gradova</a></li>
+</ul>
+
+
+
+<div ng-show="authenticated">
+    <form name="myForm">
+        <label> Unesi ime Grada </label> </br>
+        <input type="text" name="imeGrada" ng-model="grad.imeGrada" ng-minlength="3" ng-maxlength="15" required/>
+        
+        <p ng-show="myForm.imeGrada.$error.minlength" class="help-block">Grad is too short.</p>
+        <p ng-show="myForm.imeGrada.$error.maxlength" class="help-block">Grad is too long.</p>
+        
+        </br>
+        <label> Unesi Opcinu ako joj pripada </label>     </br>
+        <input type="text" name="opcina" ng-model="grad.opcina" ng-minlength="3" ng-maxlength="15" required/>
+        
+        <p ng-show="myForm.opcina.$error.minlength" class="help-block">Opcina is too short.</p>
+        <p ng-show="myForm.opcina.$error.maxlength" class="help-block">Opcina is too long.</p>
+
+        </br>
+        <label> Unesi (broj) za sljedecu: 0- FBIH, 1- RS, 2- Distrikt Brčko </label> </br>
+        <input type="number" name="entitet" ng-model="grad.entitet" min="0" max="2" required/> 
+        
+        <p ng-show="myForm.entitet.$error.min" class="help-block">Opcina is too short.</p>
+        <p ng-show="myForm.entitet.$error.max" class="help-block">Opcina is too long.</p>        
+        
+        </br>        
+        <label> Unesi Kanton ako je grad u federaciji(ako nije unestie 10): </br>
+           0-TK,1-KS,2-SBK,3-BPK,4-PK,5-HNK,6-ZHK,7-K10,8-USK,9-ZDK
+        </label> </br>
+        <input type="number" name="kanton" ng-model="grad.kanton" max="10" min="0" required />
+        
+        <p ng-show="myForm.kanton.$error.min" class="help-block">Opcina is too short.</p>
+        <p ng-show="myForm.kanton.$error.max" class="help-block">Opcina is too long.</p>   
+        
+        </br> </br> 
+        <button ng-click="dodajGrad()" ng-disabled="myForm.$invalid">Spasi</button>
+    </form>
+</div>
+<div  ng-show="!authenticated">
+	<p>Login to see your greeting</p>
+</div>
